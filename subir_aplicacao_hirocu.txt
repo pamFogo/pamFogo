@@ -1,0 +1,4 @@
+heroku open -a meu-novo-php-app
+
+
+abrir projeto
