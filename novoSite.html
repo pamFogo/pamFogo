@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-product="alura">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section>
+        <div class="row">
+
+            <div class="col" style="background-color: rgb(249,69,90);">
+
+                <div class="divsaoNome">
+                    <h1><span class="font">MEU</span></h1>
+                    <h1><span class="font">NOME É:</span></h1>
+                    <h1><span class="font2">PAMELA</span></h1>
+                    <h1><span class="font2">FOGO</span></h1>
+                </div>
+                <div class="divisaoTexto">
+                    <p class="texto"> Meu nome é amela fogo, moro em santo andre e estou em busca de uma oportunidade na
+                        area de T.i =D , estou fazendo meu curriculo como primeiro projeto HTML e css, e claro não pode
+                        faltar o nosso amiguinho JS . estou atualmente cursando a faculde de analise e desenvolvimento
+                        de sistema. estou en transição de carreira. por isso tenho milhares de coisas ainda pra aprender
+                        . mas acredito que vou virar esse jogo rapidinho.</p>
+                </div>
+                <div class="divBotoes">
+                    <div class="divLinha">
+                        <h2 class="linha"><span class="tamanhoDivText">Certificados e cursos</span></h2>
+                    </div>
+                    <div class="row divLinha" style="margin-bottom: 20%;">
+                        <div class="col">
+                            <button type="button" onclick="exibeImg1()" class="btn btn-danger" data-toggle="modal"
+                                data-target="#exampleModal">
+                                html
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" onclick="exibeImg2()" class="btn btn-danger" data-toggle="modal"
+                                data-target="#exampleModal">
+                                HTML 2
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" onclick="exibeImg3()" class="btn btn-danger" data-toggle="modal"
+                                data-target="#exampleModal">
+                                SQL
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" onclick="exibeImg4()" class="btn btn-danger" data-toggle="modal"
+                                data-target="#exampleModal">
+                                SQL 2
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="background-image: url(EUZINHa.jpeg);">
+                <div style="margin-top: 36%;margin-left: -10%;">
+                    <div><a href="#" onclick="exbibeTelefone()"><img src="pngwing.com (4).png" alt="" style="width: 16%;margin-top: 3%;"></a></div>
+
+                    <div><a href="#" onclick="exbibeEmail()"><img src="email.png" alt="" style="width: 16%;margin-top: 3%"></a></div>
+
+                    <div><a href="#" onclick="exbibeLinkedin()"><img src="linkedin.png"style="width: 16%;margin-top: 3% "></a></div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Certificado</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">X</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="HTMLPRIMEIRAPARTE.jpg" id="html1" style="width: 100%" alt="cetificado hmtl">
+                            <img src="HTMLPARTE2.jpg" id="html2" style="width: 100%" alt="cetificado hmtl">
+                            <img src="SQL.jpg" id="sql1" style="width: 100%" alt="cetificado hmtl">
+                            <img src="SQLAVANCADO.jpg" id="sql2" style="width: 100%" alt="cetificado hmtl">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+
+        function exbibeEmail(){
+            alert("pamela.fogo@hotmail.com")
+        }
+
+        function exbibeTelefone() {
+            alert("+55(011)9969-60177")
+        }
+
+        function exbibeLinkedin(){
+            alert("www.linkedin.com.br/pamela")
+        }
+
+        function exibeImg1() {
+            addHidenALL()
+            $('#html1').removeClass('hidden');
+        };
+
+        function exibeImg2(e) {
+            addHidenALL()
+            $('#html2').removeClass('hidden');
+        };
+
+        function exibeImg3(e) {
+            addHidenALL()
+            $('#sql1').removeClass('hidden');
+        };
+
+        function exibeImg4(e) {
+            addHidenALL()
+            $('#sql2').removeClass('hidden');
+        };
+
+        function addHidenALL() {
+            $('#html1').addClass('hidden');
+            $('#html2').addClass('hidden');
+            $('#sql1').addClass('hidden');
+            $('#sql2').addClass('hidden');
+
+        }
+
+
+    </script>
+
+</body>
+
+
+<style>
+    .hidden {
+        display: none;
+    }
+
+    .divLinha {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+
+    .tamanhoDivText {
+        font: 29px, Sarina, cursive;
+        color: rgb(228, 228, 228);
+    }
+
+    .imgCertificados {
+        width: 50px;
+        float: left;
+    }
+
+    .divisaoTexto {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 10%;
+    }
+
+    .texto {
+        color: rgb(228, 228, 228);
+    }
+
+    .divsaoNome {
+        margin-left: 30%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .font {
+
+        letter-spacing: -1.5px;
+        font-size: 79px;
+        font: 79px/1.4em Impact, fantasy;
+        color: rgb(249, 134, 148);
+        padding-bottom: 0px;
+    }
+
+    h1 {
+        margin-bottom: -46px;
+    }
+
+    .font2 {
+
+        letter-spacing: -1.5px;
+        font-size: 79px;
+        font: 79px/1.4em Impact, fantasy;
+        color: rgb(255, 255, 255);
+        padding-bottom: 0px;
+    }
+
+    .linha {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgb(249, 134, 148);
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+    }
+
+    .linha span {
+        background: rgb(249, 69, 90);
+        padding: 0 10px;
+    }
+</style>
+
+
+
+
+</html>
