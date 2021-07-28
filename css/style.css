@@ -2,6 +2,13 @@
     display: none;
 }
 
+
+
+.imgBtnFlutuante{
+    width: 16%;
+    margin-top: 3%;
+}
+
 .linkedim{
     width: 16%;
     margin-top: 3%;
@@ -105,19 +112,34 @@ h1 {
         padding-bottom: 0px;
     }
 
+    .imgBtnFlutuante{
+        width: 40%;
+        margin-top: 10%;
+    }
+    
+    .linkedim{
+        width: 40%;
+        margin-top: 10%;
+        border-radius: 50%;
+    }
+
+    .div2{
+        background-size: 104% 50%;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
     .divsaoNome {
         margin-left: 15%;
         margin-right: 5%;
-        margin-top: 1%;
+        margin-top: 10%;
         margin-bottom: 1%;
     }
     .font {
-        font-family: fantasy;
+        font-family: Courier-Bold;
         letter-spacing: -1.5px;
-        font: 130%/1.4em Impact, fantasy;
+        font: 130%;
         color: rgb(249, 134, 148);
         padding-bottom: 0px;
     }
@@ -127,11 +149,26 @@ h1 {
     }
     
     .font2 {
-        font-family: fantasy;
+        font-family: Courier-Bold ;
         letter-spacing: -1.5px;
-        font: 130%/1.4em Impact, fantasy;
+        font: 130%;
         color: rgb(255, 255, 255);
         padding-bottom: 0px;
+    }
+
+    .imgBtnFlutuante{
+        width: 50%;
+        margin-top: 10%;
+    }
+    
+    .linkedim{
+        width: 50%;
+        margin-top: 10%;
+        border-radius: 50%;
+    }
+
+    .div2{
+        background-size: 104% 50%;
     }
 
 }
