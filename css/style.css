@@ -127,6 +127,16 @@ h1 {
         background-size: 104% 50%;
     }
 
+    .tamanhoDivText {
+        font-size: 15px;
+        color: rgb(228, 228, 228);
+    }
+
+    .btnCert{
+        width: 100%;
+        margin-top: 3%;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -169,6 +179,16 @@ h1 {
 
     .div2{
         background-size: 104% 50%;
+    }
+
+    .tamanhoDivText {
+        font-size: 11px;
+        color: rgb(228, 228, 228);
+    }
+
+    .btnCert{
+        width: 100%;
+        margin-top: 3%;
     }
 
 }
