@@ -1,0 +1,70 @@
+    .hidden {
+        display: none;
+    }
+
+    .divLinha {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+
+    .tamanhoDivText {
+        font: 29px, Sarina, cursive;
+        color: rgb(228, 228, 228);
+    }
+
+    .imgCertificados {
+        width: 50px;
+        float: left;
+    }
+
+    .divisaoTexto {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 10%;
+    }
+
+    .texto {
+        color: rgb(228, 228, 228);
+    }
+
+    .divsaoNome {
+        margin-left: 30%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .font {
+
+        letter-spacing: -1.5px;
+        font-size: 79px;
+        font: 79px/1.4em Impact, fantasy;
+        color: rgb(249, 134, 148);
+        padding-bottom: 0px;
+    }
+
+    h1 {
+        margin-bottom: -46px;
+    }
+
+    .font2 {
+
+        letter-spacing: -1.5px;
+        font-size: 79px;
+        font: 79px/1.4em Impact, fantasy;
+        color: rgb(255, 255, 255);
+        padding-bottom: 0px;
+    }
+
+    .linha {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgb(249, 134, 148);
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+    }
+
+    .linha span {
+        background: rgb(249, 69, 90);
+        padding: 0 10px;
+    }
